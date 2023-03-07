@@ -14,7 +14,7 @@
 
 void	ft_putchar(char chr, int *len)
 {
-	write(2, &chr, 1);
+	write(1, &chr, 1);
 	(*len)++;
 }
 
